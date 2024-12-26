@@ -9,16 +9,16 @@ body{
 
 
 #userInput {
-    width: 35%;
+    width: 35%; /* Set the width of the input field */
     height: 22px;
-    padding: 10px;
-    border: none;
+    padding: 10px; /* Add padding for space around text */
+    border: none; /* Remove the border */
     border-radius: 13px 0px 0px 13px;
     box-shadow: 0 4px 10px rgba(0.2, 0, 0, 0.2);
     background-color: #ffffff;
-    position: fixed;
+    position: fixed; /* Keep the input field fixed in place no matter the device */
     bottom: 20px;
-    left: 32.5%;
+    left: 32.5%; /* Center the input field horizontally (calculation: half the element length to make up for the left side moving to the element's center and take that away from 50) */
     outline: none;
     transform-origin: left; /* Scales the box from the right side */
     transform: scaleX(0.96); /* Shrinks the width only from the right */
@@ -48,14 +48,14 @@ button{
     background-color: #ffffff;
     position: fixed;
     bottom: 20px;
-    left: 67.5%;
+    left: 67.5%; /* Center the button horizontally, same logic as userInput */
 }
 
-button:hover{
+button:hover{ /* Change the background color when hovering over the button */
     background-color: rgb(228, 228, 228);
 }
 
-button:active{
+button:active{ /* Change the background color when clicking on the button */
     background-color: rgb(189, 189, 189);
 }
 
@@ -104,7 +104,7 @@ button:active{
 }
 
 
-.aiMessage.loadingMessage {
+.aiMessage.loadingMessage { /* Add a loading message style only targeting loading messsages that are AI messages */
     font-style: italic;
     color: grey;
     text-align: left;

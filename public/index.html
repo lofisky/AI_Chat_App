@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head> <!-- metadata is fundamental information about the project-->
+    <meta charset="UTF-8"> <!-- Character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Allows the project to fit the screen -->
     <title>Chat to AI</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"> <!-- Favicon I made-->
+    <link rel="stylesheet" href="styles.css"> <!-- Links the CSS file to the HTML-->
 
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-</head>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> <!-- CDN is Content Delivery Network, aka a network of servers that host a bunch of useful tools like axios, bootstrap etc which can be pointed at, removing the need to download it like 'npm install axios' in the project-->
+</head> 
 <body>
     <main class="chat-content">
-        <h1>Talk to me about anything!</h1>
-        <div class="messages"></div>
-        <div class="inputArea">
-            <input type="text" id="userInput" placeholder="Text here...">
-            <button onclick="sendMessage()">Send</button>
+        <h1>Talk to me about anything!</h1> 
+        <div class="messages"></div> <!-- This is where the messages will be displayed -->
+        <div class="inputArea"> <!-- This is where the user will input their message -->
+            <input type="text" id="userInput" placeholder="Text here..."> <!-- Have an indication in input field -->
+            <button onclick="sendMessage()">Send</button> <!-- Button that sends message when clicked and contains prompt to send --> 
         </div>
     </main>
 
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- Links the javascript functionality file to the HTML-->
     
 </body>
 </html>
