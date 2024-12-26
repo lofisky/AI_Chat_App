@@ -1,0 +1,112 @@
+body{
+    background-image: url('/images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg'); /* Set background image */
+    font-family: sans-serif; /* Choose font */
+    background-color: aliceblue; /* Set background color */
+    background-size: cover; /* Cover the entire screen */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-attachment: fixed; /* Keep the background image fixed */
+}
+
+
+#userInput {
+    width: 35%;
+    height: 22px;
+    padding: 10px;
+    border: none;
+    border-radius: 13px 0px 0px 13px;
+    box-shadow: 0 4px 10px rgba(0.2, 0, 0, 0.2);
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 20px;
+    left: 32.5%;
+    outline: none;
+    transform-origin: left; /* Scales the box from the right side */
+    transform: scaleX(0.96); /* Shrinks the width only from the right */
+}
+
+
+h1 {
+    background-color: #ffffff; /* Set the background color of the box */
+    color: rgb(0, 106, 206); /* Set the text color */
+    padding: 5px 10px; /* Reduced padding for a much smaller box */
+    border-radius: 13px; /* Optional: Add rounded corners */
+    text-align: center; /* Center-align the text inside the box */
+    width: 430px; /* Set a fixed width for a smaller box */
+    max-width: 70%; /* Optional: set a maximum width */
+    margin: 50px auto; /* Center the box horizontally */
+    margin-bottom: 20px; /* Add space at the bottom so it doesnt overlap with .messages */
+    border: none; /* Add a border around the box */
+}
+
+
+button{
+    padding: 10px;
+    height: 42px;
+    border: none;
+    border-radius: 0px 13px 13px 0px;
+    box-shadow: 7px 6px 10px -4px rgba(0.2, 0, 0, 0.2);
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 20px;
+    left: 67.5%;
+}
+
+button:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+button:active{
+    background-color: rgb(189, 189, 189);
+}
+
+.messages {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column;  /* Align messages vertically */
+    align-items: flex-start; /* Align messages to the left or customize as needed */
+    justify-content: flex-start; /* Adjust if you want more specific content alignment */
+    width: 80%; /* Adjust width to make it wider */
+    max-width: 600px; /* Optional: maximum width */
+    padding: 20px; /* Add padding for aesthetics */
+    position: fixed; /* Keep it fixed in place while scrolling */
+    top: 120px; /* Distance from the top of the screen */
+    bottom: 100px; /* Distance from the bottom of the screen */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    background-color: #ffffff; /* Optional: background color */
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
+    overflow-y: auto; /* Allow vertical scrolling if the content exceeds the height */
+    border-radius: 13px; /* Optional: add rounded corners */
+    margin-top: 20px;
+}
+
+.userMessage {
+    background-color: #f0f0f0; /* Set background color for user messages */
+    color: #000000; /* Set text color for user messages */
+    padding: 10px; /* Add padding for space around text */
+    margin: 5px; /* Add margin for spacing between messages */
+    border-radius: 13px; /* Optional: add rounded corners */
+    max-width: 70%; /* Optional: set a maximum width */
+    align-self: flex-start; /* Align user messages to the right */
+}
+
+.aiMessage {
+    background-color: #f0f0f0; /* Set background color for AI messages */
+    color: #000000; /* Set text color for AI messages */
+    padding: 10px; /* Add padding for space around text */
+    margin: 5px; /* Add margin for spacing between messages */
+    border-radius: 13px; /* Optional: add rounded corners */
+    max-width: 70%; /* Optional: set a maximum width */
+    align-self: flex-end; /* Align AI messages to the left */
+}
+
+.inputArea{
+    margin-top: 20px; /* Add space above the input area so it doesnt touch the chatbox and the rest*/
+}
+
+
+.aiMessage.loadingMessage {
+    font-style: italic;
+    color: grey;
+    text-align: left;
+    margin-top: 5px;
+}
