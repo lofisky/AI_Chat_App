@@ -21,7 +21,7 @@ body{
     left: 32.5%; /* Center the input field horizontally (calculation: half the element length to make up for the left side moving to the element's center and take that away from 50) */
     outline: none;
     transform-origin: left; /* Scales the box from the right side */
-    transform: scaleX(0.96); /* Shrinks the width only from the right */
+    transform: scaleX(0.98); /* Shrinks the width only from the right */
 }
 
 
