@@ -9,8 +9,8 @@ This personal project is a simple web application that enables users to chat wit
 
 ## Features
 - **AI Conversations:** Send and receive messages from a friendly, conversational AI
-- **Responsive UI:** An intuitive and user-friendly interface that adapts across devices.
-- **Real-Time Interactions:**  Allows instant chatting with the AI, including a loading state while the response is being generated.
+- **Responsive UI:** An intuitive and user-friendly interface that adapts across devices
+- **Real-Time Interactions:**  Allows instant chatting with the AI, including a loading state while the response is being generated
 - **Effective Error-Handling:** Robust error handling ensures users are notified in case of issues arising
 
 ## Setup Instructions
