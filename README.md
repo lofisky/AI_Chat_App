@@ -3,6 +3,8 @@
 ## Project Description
 This personal project is a web application which enables users to chat with a responsive AI. The front-end is built with HTML, CSS, and JavaScript, while the back-end is powered by Node.js with an Express server to manage requests.
 
+## Display
+
 ![Screenshot (220)](https://github.com/user-attachments/assets/44a199b1-98f4-4c8c-a4ff-d386a5e31491)
 
 
