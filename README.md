@@ -1,4 +1,4 @@
-# AI-Chat-App
+# AI_Chat_App
 
 ## Project Description
 This personal project is a web application which enables users to chat with a responsive AI. The backend is powered by Node.js with an Express server to manage requests. The frontend is built with HTML, CSS, and JavaScript
